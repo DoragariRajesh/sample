@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.bana{
+    width: 100%;
+    height: 100px;
+    background-image:url('./images.jpg');
+     background-image: linear-gradient(rgba(0, 0, 0, 0.384) rgba(0, 0, 0, 0.313));
+     background-size: cover;
+     background-position: center;
+
+}

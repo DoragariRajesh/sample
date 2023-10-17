@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding:0px 100px ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.569));
+
+}
+nav p{
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 30px;
+}
+nav  li a{
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover{
+    color: aqua;
+    transition: 1s;
+}
